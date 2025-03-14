@@ -64,8 +64,8 @@ const ModelSelector: React.FC<ModelSelectorProps> = ({
             >
               <option value="openai">ChatGPT</option>
               <option value="gemini">Google Gemini</option>
-              {/* <option value="anthropic">Claude</option>
-              <option value="mistral">Mistral AI</option> */}
+              <option value="anthropic">Claude</option>
+              <option value="mistral">Mistral AI</option>
               {/* Can add these apis later  */}
             </Select>
           </Box>

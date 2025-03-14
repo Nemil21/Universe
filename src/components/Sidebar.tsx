@@ -40,8 +40,6 @@ interface SidebarProps {
   onDeleteChat: (chatId: string) => void;
   onUpdateChatTitle: (chatId: string, title: string) => void;
   onUpgradeClick: () => void;
-  currentTime: string;
-  currentUser: string;
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ 
@@ -51,8 +49,6 @@ const Sidebar: React.FC<SidebarProps> = ({
   onDeleteChat,
   onUpdateChatTitle,
   onUpgradeClick,
-  currentTime,
-  currentUser 
 }) => {
   // Dark theme colors
   const bgColor = "gray.900";

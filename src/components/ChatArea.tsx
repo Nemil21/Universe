@@ -37,7 +37,6 @@ interface ChatAreaProps {
   currentChat: Chat | null;
   isLoading: boolean;
   onNewChat: () => void;
-  currentUser: string;
 
 }
 
@@ -45,7 +44,6 @@ const ChatArea: React.FC<ChatAreaProps> = ({
   currentChat,
   isLoading,
   onNewChat,
-  currentUser,
 
 }) => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
